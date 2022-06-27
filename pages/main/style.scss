@@ -2,3 +2,145 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
+// ------ HEADER -----
+
+.header-fon {
+  width: 100%;
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+header {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.header-container {  
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+
+    &-cozy {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.06em;
+      color: #F1CDB3;
+    }
+    &-text {
+      padding-top: 10px;
+      margin: 0 auto;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+  }
+
+  .nav {
+    display: flex;
+    column-gap: 35px;
+
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+    }
+    
+    &-item {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      color: #CDCDCD;
+    }
+    &-select {
+      border-bottom: 3px solid #F1CDB3;
+      color: #FAFAFA;
+    }
+  }
+}
+
+
+// ----- Not only section -----
+
+.not-only-container {
+  width: 100%;
+  margin: 0 auto;  
+  
+  .not-only-items {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+     
+  }
+
+  .content {
+    padding-top: 163px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 44px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+    }
+    &-text {
+      width: 460px;
+      padding-top: 42px;
+      padding-bottom: 42px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;     
+      display: flex;
+      align-items: center;
+      color: #CDCDCD;
+    }
+    &-btn {
+      width: 207px;
+      height: 52px;
+      background: #F1CDB3;
+      border: none;
+      border-radius: 100px;
+
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #292929;
+    }
+  }
+}
