@@ -2,3 +2,316 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
+// ------ HEADER -----
+
+.header-fon {
+  width: 100%;
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+header {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.header-container {  
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+
+    &-cozy {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.06em;
+      color: #F1CDB3;
+    }
+    &-text {
+      padding-top: 10px;
+      margin: 0 auto;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+  }
+
+  .nav {
+    display: flex;
+    column-gap: 35px;
+
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+    }
+    
+    &-item {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      color: #CDCDCD;
+    }
+    &-select {
+      border-bottom: 3px solid #F1CDB3;
+      color: #FAFAFA;
+    }
+  }
+}
+
+
+// ----- Not only section -----
+
+.not-only-container {
+  width: 100%;
+  margin: 0 auto;  
+  
+  .not-only-items {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+     
+  }
+
+  .content {
+    padding-top: 163px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 44px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+    }
+    &-text {
+      width: 460px;
+      padding-top: 42px;
+      padding-bottom: 42px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;     
+      display: flex;
+      align-items: center;
+      color: #CDCDCD;
+    }
+    &-btn {
+      width: 207px;
+      height: 52px;
+      background: #F1CDB3;
+      border: none;
+      border-radius: 100px;
+
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #292929;
+    }
+  }
+}
+
+// ----- About section -----
+
+.about-section {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.about-container {  
+  padding-top: 80px;
+  padding-bottom: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  .content {
+    padding-left: 120px;
+    width: 430px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.06em;
+      color: #545454;
+    }
+
+    &-text {
+      padding-top: 25px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      color: #4C4C4C;
+    }
+  }
+}
+
+// ----- Our friiends section -----
+
+.our-friends-section {
+  width: 100%;
+  background: #F6F6F6;
+}
+
+.our-friends-container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+  }
+
+  .slider {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn-left {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 2px solid #F1CDB3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .items {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      column-gap: 90px;
+    }
+    .card {
+      width: 270px;
+      height: 435px;
+      background: #FAFAFA;
+      border-radius: 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      &-text {
+        padding: 30px 0;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+      }
+
+      &-btn {
+        margin-bottom: 30px;
+        width: 187px;
+        height: 52px;
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+        background: inherit;
+
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #292929;
+      }
+    }
+
+    .btn-right {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 2px solid #F1CDB3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .our-friends-btn {
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+  }
+}
