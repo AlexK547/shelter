@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,7 +34,7 @@
                 >
               </li>
               <li>
-                <a class="nav__item" href="pets.jsp">Our pets</a>
+                <a class="nav__item" href="pets">Our pets</a>
               </li>
               <li><a class="nav__item" href="#help">Help the shelter</a></li>
               <li><a class="nav__item" href="#contacts">Contacts</a></li>
