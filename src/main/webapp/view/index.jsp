@@ -147,7 +147,7 @@
           <button
             type="button"
             class="our-friends__btn"
-            onclick="window.location.href = '/pets.jsp'"
+            onclick="window.location.href = '/shelter/pets'"
           >
             Get to know the rest
           </button>
