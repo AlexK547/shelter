@@ -229,5 +229,7 @@
       </div>
     </footer>
     
+    <script src="assets/scripts/scripts-header.js"></script>
+    <script src="assets/scripts/scripts-pets-page.js"></script>
 </body>
 </html>
